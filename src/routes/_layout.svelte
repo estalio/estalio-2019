@@ -5,14 +5,29 @@
 </script>
 
 <style>
+	header {
+		position: fixed;
+		top: 0;
+		left: 0;
+		right: 0;
+		text-align: center;
+		nax-height: 4em;
+		border-bottom: 1px solid rgba(255,62,0,0.1);
+	}
+
 	main {
-		position: relative;
+		position: fixed;
+		top: 4em;
+		left: 0;
+		right: 0;
+		bottom: 3em;
 		max-width: 56em;
 		background-color: white;
 		padding: 2em;
 		margin: 0 auto;
 		box-sizing: border-box;
-		height: 100%;
+		max-height: 90vh;
+		overflow-y: scroll;
 	}
 
 	footer {
@@ -21,16 +36,20 @@
 		left: 0;
 		right: 0;
 		text-align: center;
+		height: 3em;
 	}
 </style>
 
-<Nav {segment}/>
+<header>
+	<Nav {segment}/>
+</header>
 
 <main>
 	<slot></slot>
-	<footer>
-		<p>
-			&copy; 2000-2019 Estalio Consulting Inc.
-		<p>
-	</footer>
 </main>
+
+<footer>
+	<p>
+		&copy; 2000-2019 Estalio Consulting Inc.
+	<p>
+</footer>

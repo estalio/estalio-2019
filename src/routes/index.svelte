@@ -33,7 +33,7 @@
 </style>
 
 <svelte:head>
-	<title>About</title>
+	<title>Estalio Consulting Inc.</title>
 </svelte:head>
 
 <h1>About Us</h1>
