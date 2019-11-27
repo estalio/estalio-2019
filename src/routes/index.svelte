@@ -1,9 +1,4 @@
 <style>
-	h1, figure, p {
-		text-align: center;
-		margin: 0 auto;
-	}
-
 	h1 {
 		font-size: 2.8em;
 		text-transform: uppercase;
@@ -12,7 +7,8 @@
 	}
 
 	figure {
-		margin: 0 0 1em 0;
+		margin: 0 0 0 2em;
+		float: right;
 	}
 
 	img {
@@ -23,12 +19,7 @@
 
 	p {
 		margin: 1em auto;
-	}
-
-	@media (min-width: 480px) {
-		h1 {
-			font-size: 4em;
-		}
+		text-align: justify;
 	}
 </style>
 
@@ -36,7 +27,7 @@
 	<title>Estalio Consulting Inc.</title>
 </svelte:head>
 
-<h1>About Us</h1>
+<h1>Estalio</h1>
 
 <figure>
 	<img alt='About Us' src='about.png'>

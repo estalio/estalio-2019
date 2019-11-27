@@ -1,10 +1,54 @@
 <style>
+	h1 {
+		font-size: 2.8em;
+		text-transform: uppercase;
+		font-weight: 700;
+		margin: 0 0 0.5em 0;
+	}
+
+	figure {
+		margin: 0 0 0 2em;
+		float: right;
+		width: 40vh;
+	}
+
+	img {
+		width: 100%;
+		max-width: 400px;
+		margin: 0 0 1em 0;
+	}
+
+	p {
+		margin: 1em auto;
+		text-align: justify;
+	}
+
 	.form-input {
-		margin: 0px auto;
+		margin: 1em auto;
+	}
+
+	form {
+		float: left;
+		width: 40%;
 	}
 
 	input, textarea {
-		width: 75%;
+		width: 100%;
+		display: block;
+	}
+
+	textarea {
+		height: 5em;
+	}
+
+	button {
+		background-color: #555555;
+		border: none;
+		color: white;
+		text-align: center;
+		text-decoration: none;
+		font-size: 16px;
+		padding: 0.5em;
 	}
 </style>
 
@@ -22,16 +66,20 @@
 
 <form action="https://formspree.io/info@estalio.com" method="POST">
 	<div class="form-input">
-		<input type="text" name="name">
+		<label for="name">Name</label>
+		<input type="text" name="name" id="name" />
 	</div>
 	<div class="form-input">
-		<input type="text" name="email">
+		<label for="email">Email</label>
+		<input type="text" name="email" id="email" />
 	</div>
 	<div class="form-input">
-		<input type="text" name="subject">
+		<label for="subject">Subject</label>
+		<input type="text" name="subject" id="subject" />
 	</div>
 	<div class="form-input">
-		<textarea name="message" />
+		<label for="message">Message</label>
+		<textarea name="message" id="message" />
 	</div>
 	<div class="form-input">
 		<button type="submit">Send</button>

@@ -1,3 +1,12 @@
+<style>
+	h1 {
+		font-size: 2.8em;
+		text-transform: uppercase;
+		font-weight: 700;
+		margin: 0 0 0.5em 0;
+	}
+</style>
+
 <svelte:head>
 	<title>Frequently Asked Questions - Estalio Consulting Inc.</title>
 </svelte:head>
