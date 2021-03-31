@@ -64,14 +64,17 @@
 
 <p>Still have questions? Contact us and we will be happy to answer you.</p>
 
-<form action="https://formspree.io/info@estalio.com" method="POST">
+<form
+  action="https://formspree.io/f/mjvjbnre"
+  method="POST"
+>
 	<div class="form-input">
 		<label for="name">Name</label>
 		<input type="text" name="name" id="name" />
 	</div>
 	<div class="form-input">
 		<label for="email">Email</label>
-		<input type="text" name="email" id="email" />
+		<input type="email" name="email" id="email" />
 	</div>
 	<div class="form-input">
 		<label for="subject">Subject</label>

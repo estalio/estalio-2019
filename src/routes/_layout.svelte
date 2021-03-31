@@ -50,6 +50,6 @@
 
 <footer>
 	<p>
-		&copy; 2000-2019 Estalio Consulting Inc.
+		&copy; 2019-2021 Estalio Consulting Inc.
 	<p>
 </footer>
