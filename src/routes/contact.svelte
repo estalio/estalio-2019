@@ -53,7 +53,7 @@
 </style>
 
 <svelte:head>
-	<title>Contact Us - Estalio Consulting Inc.</title>
+	<title>Contact Us - Estalio Holding Limited</title>
 </svelte:head>
 
 <h1>Contact Us</h1>

@@ -50,6 +50,6 @@
 
 <footer>
 	<p>
-		&copy; 2019-2021 Estalio Consulting Inc.
+		&copy; 2019-2024 Estalio Holding Limited
 	<p>
 </footer>

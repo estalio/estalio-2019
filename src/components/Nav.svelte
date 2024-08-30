@@ -53,7 +53,7 @@
 
 <nav>
 	<ul>
-		<li><a href='.'><img class='logo' alt='Estalio Consulting Inc.' src='logo.png'></a></li>
+		<li><a href='.'><img class='logo' alt='Estalio' src='logo.png'></a></li>
 		<li><a class='{segment === undefined ? "selected" : ""}' href='.'>About Us</a></li>
 		<li><a class='{segment === "faq" ? "selected" : ""}' href='faq'>FAQ</a></li>
 		<li><a class='{segment === "contact" ? "selected" : ""}' href='contact'>Contact</a></li>
