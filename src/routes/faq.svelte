@@ -8,7 +8,7 @@
 </style>
 
 <svelte:head>
-	<title>Frequently Asked Questions - Estalio Holding Limited</title>
+	<title>Frequently Asked Questions - Estalio Consulting Inc.</title>
 </svelte:head>
 
 <h1>Frequently Asked Questions</h1>
